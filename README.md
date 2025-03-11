@@ -17,5 +17,5 @@ This is my personal portfolio website showcasing my projects, skills, and contac
 ✅ Interactive UI Elements
 
 # 📩 Contact Me
-### Email: [kmgiridharan8899@gmail.com](mailto:kmgiridharan8899@gmail.com)
-### LinkedIn: [Giridharan KM](https://www.linkedin.com/in/giri8899/)
+Email: [kmgiridharan8899@gmail.com](mailto:kmgiridharan8899@gmail.com)
+LinkedIn: [Giridharan KM](https://www.linkedin.com/in/giri8899/)
