@@ -44,3 +44,30 @@ form.addEventListener('submit', e => {
         .catch(error => console.error('Error!', error.message))
 })
 
+// typing Text
+const text = "Web Developer";
+const typingElement = document.querySelector('.typing-text');
+let index = 0;
+let isDeleting = false;
+
+function typeLoop() {
+    if (!isDeleting) {
+        typingElement.textContent = text.substring(0, index + 1);
+        index++;
+        if (index === text.length) {
+            isDeleting = true;
+            setTimeout(typeLoop, 1000); // Pause before deleting
+            return;
+        }
+    } else {
+        typingElement.textContent = text.substring(0, index - 1);
+        index--;
+        if (index === 0) {
+            isDeleting = false;
+        }
+    }
+    setTimeout(typeLoop, isDeleting ? 100 : 150); // Speed: delete faster
+}
+
+window.onload = typeLoop;
+
