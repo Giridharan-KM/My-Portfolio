@@ -410,7 +410,27 @@ nav .side-nav-open, nav .side-nav-close {
     scroll-behavior: "none";
 }
 
+/* Typing Test */
+.typing-text::after {
+    content: '|';
+    /* Cursor */
+    animation: blink 0.7s infinite;
+    margin-left: 2px;
+    color: white;
+    /* Cursor color */
+}
 
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
 
 
 
