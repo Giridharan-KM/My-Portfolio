@@ -132,7 +132,7 @@ nav ul li a:hover::after {
 .tab-content ul li span:hover {
     color: #ff004f;
     font-size: 16px;
-    transition: 0.8s;
+    transition: 0.3s;
 }
 .tab-content {
     display: none;
