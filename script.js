@@ -71,3 +71,20 @@ function typeLoop() {
 
 window.onload = typeLoop;
 
+// Two additional projects:
+document.getElementById("seeMoreBtn").addEventListener("click", function () {
+    let hiddenProjects = document.querySelectorAll(".hidden");
+
+    hiddenProjects.forEach(project => {
+        project.style.display = "block"; // Show the hidden projects
+    });
+
+    this.style.display = "none"; // Hide the "See more" button after clicking
+});
+
+
+
+
+
+
+
