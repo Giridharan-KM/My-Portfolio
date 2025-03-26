@@ -432,7 +432,10 @@ nav .side-nav-open, nav .side-nav-close {
     }
 }
 
-
+/* Two additional projects */
+.hidden {
+    display: none;
+}
 
 
 
