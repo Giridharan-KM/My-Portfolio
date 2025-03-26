@@ -11,10 +11,10 @@ This is my personal portfolio website showcasing my projects, skills, and contac
 ### JavaScript - Interactivity
 
 ## 🔧 Features
-✅ Responsive Design (Works on all devices)
-✅ Smooth Scrolling & Animations
-✅ Contact Form with Basic Validation
-✅ Interactive UI Elements
+✅ Responsive Design (Works on all devices)  
+✅ Smooth Scrolling & Animations  
+✅ Contact Form with Basic Validation  
+✅ Interactive UI Elements  
 
 ## 📩 Contact Me
 ### Email: [kmgiridharan8899@gmail.com](mailto:kmgiridharan8899@gmail.com)
