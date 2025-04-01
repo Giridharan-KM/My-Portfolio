@@ -41,6 +41,7 @@ nav ul li a {
         text-decoration: none;
         font-size: 18px;
         position: relative;
+        z-index:999;
 }
 nav ul li a::after {
     content: "";
@@ -66,6 +67,17 @@ nav ul li a:hover::after {
 .header-text h1 span {
     color: #ff004f
 }
+
+/* Robot designing */
+.robot-3d {
+    position: absolute;
+    top: -45px;
+    right: -250px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
 /* About Section */
 #about {
     padding: 80px 0;
@@ -315,17 +327,21 @@ nav .side-nav-open, nav .side-nav-close {
 }
 
 @media only screen and (max-width: 600px) {
-    #header {
+/*     #header {
         background-image: url(images/Giri_mob.jpg);
-    }
+    } */
     .logo {
         position: absolute;
         top: 10px;
         left: 10px;
     }
     .header-text {
-        margin-top: 100%;
         font-size: 16px;
+        position: absolute;
+        top: 25%;
+    }
+    .robot-3d {
+        z-index: -1;
     }
 
     .header-text h1 {
@@ -399,6 +415,32 @@ nav .side-nav-open, nav .side-nav-close {
     }
     .copyright {
         font-size: 14px;
+    }
+}
+
+/* Robot Media Queries for Tablet screen*/
+@media (max-width: 1300px) {
+    #header {
+        padding: 1rem;
+    }
+
+    .header-text {
+        margin-top: 65%;
+    }
+
+    .robot-3d {
+        scale: 0.8;
+        top: -20%;
+        right: 2%;
+        z-index: -1;
+    }
+
+    nav .sidemenu {
+        z-index: 999;
+    }
+
+    nav .sidemenu::before {
+        display: block;
     }
 }
 
