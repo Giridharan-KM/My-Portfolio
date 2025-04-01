@@ -45,7 +45,7 @@ form.addEventListener('submit', e => {
 })
 
 // typing Text
-const text = "Web Developer";
+const text = "Frontend Developer";
 const typingElement = document.querySelector('.typing-text');
 let index = 0;
 let isDeleting = false;
